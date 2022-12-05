@@ -5,7 +5,7 @@ import streamlit as st
 crop_model  = pickle.load(open('crop_model.sav', 'rb'))
 
 #judul web
-st.title('Data Mining Rekomendasi Lahan Untuk Tanaman')
+st.title('Data Mining Rekomendasi Tanaman Untuk Ditanam Disebuah Lahan Pertanian')
 
 # Membagi kolom
 col1, col2, = st.columns(2)
